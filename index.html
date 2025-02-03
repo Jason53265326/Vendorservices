@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TradeNest - Into the world of trading</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/icon" href="Images/favicon.png">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+        <img src="Images/cart.png" alt="Shopping cart"  class="logo-img"> 
+        <h1>TradeNest</h1>
+    </div>
+    <div class="search-bar-inline">
+      <input type="text" placeholder="Search products">
+      <button>Search</button>
+
+  <!-- Overlay for dimming the background -->
+    <div class="overlay" id="overlay"></div>
+
+      <!-- Language Selection Dropdown -->
+      <div class="language-container">
+        <div class="selected-language" id="selected-language">
+          <img src="Images/britainflag.png" alt="English Flag" class="flag-icon">
+          <span class="language-text">EN</span>
+          <span class="dropdown-arrow">▼</span>  <!-- Dropdown indicator -->
+        </div>
+        <div class="language-box" id="language-box">
+          <div class="language-option" data-lang="en">
+            <img src="Images/britainflag.png" alt="English Flag" class="flag-icon">
+            <span>English</span>
+          </div>
+          <div class="language-option" data-lang="fr">
+            <img src="Images/frenchflag.png" alt="French Flag" class="flag-icon">
+            <span>Français</span>
+          </div>
+          <div class="language-option" data-lang="es">
+            <img src="Images/spainflag.png" alt="Spanish Flag" class="flag-icon">
+            <span>Español</span>
+          </div>
+          <div class="language-option" data-lang="de">
+            <img src="Images/germanyflag.png" alt="German Flag" class="flag-icon">
+            <span>Deutsch</span>
+          </div>
+          <div class="language-option" data-lang="it">
+            <img src="Images/italyflag.png" alt="Italian Flag" class="flag-icon">
+            <span>Italiano</span>
+          </div>
+        </div>
+    </div>
+    <ul class="nav-links">
+      <li class="dropdown">
+        <img src="Images/padlock.png" alt="a padlock">
+        <a href="#">Subscription</a>
+      </li>
+      <li><a href="#">Deals</a></li>
+      <li><a href="#">Sign in, Accounts, and Lists</a></li>
+      <li><a href="#">Returns & <br>Orders</a></li>
+      <img src="Images/shopcart.png" alt="shopping cart">
+      <li><a href="#">Cart</a></li>
+    </ul>
+      
+
+    </nav>
+
+  <!-- Secondary Navigation Bar -->
+<div class="secondary-navbar-container">
+  <nav class="secondary-navbar">
+    <ul>
+      <li><a href="#">All</a></li>
+      <li><a href="#">Today's Deals</a></li>
+      <li><a href="#">Customer Service</a></li>
+      <li><a href="#">Registry</a></li>
+      <li><a href="#">Gift Cards</a></li>
+      <li><a href="#">Sell</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+  <!-- Background Image Carousel Section -->
+<section class="image-carousel">
+  <div class="carousel-container">
+    <!-- Individual slides -->
+    <div class="carousel-slide active" style="background-image: url('Images/Books.jpeg');"></div>
+    <div class="carousel-slide" style="background-image: url('Images/Toys.jpeg');"></div>
+    <div class="carousel-slide" style="background-image: url('Images/Makeup.jpeg');"></div>
+    <div class="carousel-slide" style="background-image: url('Images/Kitchen\ utensils.jpeg');"></div>
+    
+    <!-- Navigation arrows -->
+    <button class="carousel-arrow prev">&lt;</button>
+    <button class="carousel-arrow next">&gt;</button>
+  </div>
+</section>
+
+<!-- Horizontal Sections Row -->
+<section class="horizontal-sections-row">
+  <!-- Section 1: Gaming Accessories -->
+  <div class="section-box">
+    <h2>Gaming Accessories</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/gamemouse.webp" alt="Gaming Mouse">
+        <p>Gaming Mouse</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/mechanicalkey.jpeg" alt="Mechanical Keyboard">
+        <p>Mechanical Keyboard</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/gamingheadset.jpeg" alt="Gaming Headset">
+        <p>Gaming Headset</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/RGBmousepad.jpeg" alt="RGB Mousepad">
+        <p>RGB Mousepad</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 2: Shop Home Essentials -->
+  <div class="section-box">
+    <h2>Shop Home Essentials</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/livroomset.jpeg" alt="Living Room Set">
+        <p>Living Room Set</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/kitchenware.avif" alt="Kitchenware">
+        <p>Kitchenware</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/bedroomessentials.jpeg" alt="Bedroom Essentials">
+        <p>Bedroom Essentials</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/bathroom accessories.jpeg" alt="Bathroom Accessories">
+        <p>Bathroom Accessories</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 3: Power Up Your Gaming -->
+  <div class="section-box">
+    <h2>Power Up Your Gaming</h2>
+    <div class="box-grid">
+      <div class="mini-box big-box">
+        <img src="Images/gamingsetup.jpeg" alt="Gaming Setup">
+        <p>Ultimate Gaming Setup</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 4: Shop Deals in Fashion -->
+  <div class="section-box">
+    <h2>Shop Deals in Fashion</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/menwear.jpeg" alt="Men's Wear">
+        <p>Men's Wear</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/womenwear.jpg" alt="Women's Wear">
+        <p>Women's Wear</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/footwear.jpeg" alt="Footwear">
+        <p>Footwear</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/accessories.jpeg" alt="Accessories">
+        <p>Accessories</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5: Electronics -->
+  <div class="section-box">
+    <h2>Electronics</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/smartphone.jpeg" alt="Smartphone">
+        <p>Smartphones</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/laptop.jpeg" alt="Laptop">
+        <p>Laptops</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/headphones.jpeg" alt="Headphones">
+        <p>Headphones</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/smartwatch.jpeg" alt="Smartwatch">
+        <p>Smartwatches</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 6: Home Appliances -->
+  <div class="section-box">
+    <h2>Home Appliances</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/refrigerator.jpeg" alt="Refrigerator">
+        <p>Refrigerators</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/washingmachine.jpeg" alt="Washing Machine">
+        <p>Washing Machines</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/microwave.jpeg" alt="Microwave">
+        <p>Microwaves</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/airconditioner.jpeg" alt="Air Conditioner">
+        <p>Air Conditioners</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 7: Sports & Fitness -->
+  <div class="section-box">
+    <h2>Sports & Fitness</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/dumbbells.jpeg" alt="Dumbbells">
+        <p>Dumbbells</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/yogamat.jpeg" alt="Yoga Mat">
+        <p>Yoga Mats</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/treadmill.jpeg" alt="Treadmill">
+        <p>Treadmills</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/sports shoes.jpeg" alt="Sports Shoes">
+        <p>Sports Shoes</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 8: Books -->
+  <div class="section-box">
+    <h2>Books</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/fictionbooks.jpeg" alt="Fiction Books">
+        <p>Fiction Books</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/nonfictionbooks.jpeg" alt="Non-Fiction Books">
+        <p>Non-Fiction Books</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/childrenbooks.jpeg" alt="Children's Books">
+        <p>Children's Books</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/educationalbooks.jpeg" alt="Educational Books">
+        <p>Educational Books</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 9: Beauty & Personal Care -->
+  <div class="section-box">
+    <h2>Beauty & Personal Care</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/skincare.jpeg" alt="Skincare">
+        <p>Skincare</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/haircare.jpeg" alt="Haircare">
+        <p>Haircare</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/makeup.jpeg" alt="Makeup">
+        <p>Makeup</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/fragrances.jpeg" alt="Fragrances">
+        <p>Fragrances</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 10: Toys & Games -->
+  <div class="section-box">
+    <h2>Toys & Games</h2>
+    <div class="box-grid">
+      <div class="mini-box">
+        <img src="Images/boardgames.jpeg" alt="Board Games">
+        <p>Board Games</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/actionfigures.jpeg" alt="Action Figures">
+        <p>Action Figures</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/puzzles.jpeg" alt="Puzzles">
+        <p>Puzzles</p>
+      </div>
+      <div class="mini-box">
+        <img src="Images/dolls.jpeg" alt="Dolls">
+        <p>Dolls</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Back to Top -->
+    <div class="footer-back-to-top">
+      <a href="#">Back to top</a>
+    </div>
+
+    <!-- Footer Columns -->
+    <div class="footer-columns">
+      <!-- Column 1: Get to Know Us -->
+      <div class="footer-column">
+        <h3>Get to Know Us</h3>
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About TradeNest</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">TradeNest Devices</a></li>
+          <li><a href="#">TradeNest Science</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2: Make Money with Us -->
+      <div class="footer-column">
+        <h3>Make Money with Us</h3>
+        <ul>
+          <li><a href="#">Sell products on TradeNest</a></li>
+          <li><a href="#">Sell on TradeNest Business</a></li>
+          <li><a href="#">Sell apps on TradeNest</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+          <li><a href="#">Self-Publish with Us</a></li>
+          <li><a href="#">Host a TradeNest Hub</a></li>
+          <li><a href="#">› See More Make Money with Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: TradeNest Payment Products -->
+      <div class="footer-column">
+        <h3>TradeNest Payment Products</h3>
+        <ul>
+          <li><a href="#">TradeNest Business Card</a></li>
+          <li><a href="#">Shop with Points</a></li>
+          <li><a href="#">Reload Your Balance</a></li>
+          <li><a href="#">TradeNest Currency Converter</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Let Us Help You -->
+      <div class="footer-column">
+        <h3>Let Us Help You</h3>
+        <ul>
+          <li><a href="#">TradeNest and COVID-19</a></li>
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Your Orders</a></li>
+          <li><a href="#">Shipping Rates & Policies</a></li>
+          <li><a href="#">Returns & Replacements</a></li>
+          <li><a href="#">Manage Your Content and Devices</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer Language and Currency -->
+    <div class="footer-language">
+      <span>English</span>
+      <span>$USD - U.S. Dollar</span>
+      <span>United States</span>
+    </div>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+    "nav": {
+      "subscription": "Abonnement",
+      "deals": "Promotions",
+      "account": "Se connecter, Comptes et Listes",
+      "returns": "Retours & Commandes",
+      "cart": "Panier"
+    },
+    "search": {
+      "placeholder": "Rechercher des produits",
+      "button": "Rechercher"
+    },
+    "secondary": {
+      "all": "Tous",
+      "todaysDeals": "Offres du jour",
+      "customerService": "Service Client",
+      "registry": "Liste de cadeaux",
+      "giftCards": "Cartes cadeaux",
+      "sell": "Vendre"
+    },
+    "carousel": {
+      "altBooks": "Livres",
+      "altToys": "Jouets",
+      "altMakeup": "Maquillage",
+      "altKitchen": "Ustensiles de cuisine"
+    },
+    "section": {
+      "gamingAccessories": "Accessoires de jeu",
+      "homeEssentials": "Essentiels pour la maison",
+      "powerGaming": "Boostez votre jeu",
+      "fashionDeals": "Promotions mode",
+      "electronics": "Électronique",
+      "homeAppliances": "Appareils électroménagers",
+      "sportsFitness": "Sport et Fitness",
+      "books": "Livres",
+      "beautyCare": "Beauté et soins",
+      "toysGames": "Jouets et jeux"
+    },
+    "footer": {
+      "top": "Haut de page",
+      "getToKnowUs": "Découvrez-nous",
+      "careers": "Carrières",
+      "blog": "Blog",
+      "aboutUs": "À propos de TradeNest",
+      "investorRelations": "Relations investisseurs",
+      "tradeNestDevices": "Appareils TradeNest",
+      "tradeNestScience": "Science TradeNest",
+      "makeMoneyWithUs": "Gagnez avec nous",
+      "sellProducts": "Vendez sur TradeNest",
+      "sellOnBusiness": "Vendez sur TradeNest Business",
+      "sellApps": "Vendez des applications sur TradeNest",
+      "becomeAffiliate": "Devenez affilié",
+      "advertise": "Faites de la publicité pour vos produits",
+      "selfPublish": "Publiez vous-même avec nous",
+      "hostHub": "Animez un hub TradeNest",
+      "seeMore": "› Voir plus de façons de gagner avec nous",
+      "paymentProducts": "Produits de paiement TradeNest",
+      "tradeNestCard": "Carte d'affaires TradeNest",
+      "shopWithPoints": "Achetez avec des points",
+      "reloadBalance": "Recharger votre solde",
+      "currencyConverter": "Convertisseur de devises TradeNest",
+      "help": "Nous aider",
+      "covid": "TradeNest et COVID-19",
+      "yourAccount": "Votre compte",
+      "yourOrders": "Vos commandes",
+      "shippingPolicies": "Frais et politiques de livraison",
+      "returnsReplacements": "Retours et remplacements",
+      "manageContent": "Gérez votre contenu et vos appareils",
+      "helpCenter": "Aide"
+    }
+  }
+  
