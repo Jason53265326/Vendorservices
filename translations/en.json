@@ -1,0 +1,72 @@
+{
+    "nav": {
+      "subscription": "Subscription",
+      "deals": "Deals",
+      "account": "Sign in, Accounts, and Lists",
+      "returns": "Returns & Orders",
+      "cart": "Cart"
+    },
+    "search": {
+      "placeholder": "Search products",
+      "button": "Search"
+    },
+    "secondary": {
+      "all": "All",
+      "todaysDeals": "Today's Deals",
+      "customerService": "Customer Service",
+      "registry": "Registry",
+      "giftCards": "Gift Cards",
+      "sell": "Sell"
+    },
+    "carousel": {
+      "altBooks": "Books",
+      "altToys": "Toys",
+      "altMakeup": "Makeup",
+      "altKitchen": "Kitchen utensils"
+    },
+    "section": {
+      "gamingAccessories": "Gaming Accessories",
+      "homeEssentials": "Shop Home Essentials",
+      "powerGaming": "Power Up Your Gaming",
+      "fashionDeals": "Shop Deals in Fashion",
+      "electronics": "Electronics",
+      "homeAppliances": "Home Appliances",
+      "sportsFitness": "Sports & Fitness",
+      "books": "Books",
+      "beautyCare": "Beauty & Personal Care",
+      "toysGames": "Toys & Games"
+    },
+    "footer": {
+      "top": "Back to top",
+      "getToKnowUs": "Get to Know Us",
+      "careers": "Careers",
+      "blog": "Blog",
+      "aboutUs": "About TradeNest",
+      "investorRelations": "Investor Relations",
+      "tradeNestDevices": "TradeNest Devices",
+      "tradeNestScience": "TradeNest Science",
+      "makeMoneyWithUs": "Make Money with Us",
+      "sellProducts": "Sell products on TradeNest",
+      "sellOnBusiness": "Sell on TradeNest Business",
+      "sellApps": "Sell apps on TradeNest",
+      "becomeAffiliate": "Become an Affiliate",
+      "advertise": "Advertise Your Products",
+      "selfPublish": "Self-Publish with Us",
+      "hostHub": "Host a TradeNest Hub",
+      "seeMore": "› See More Make Money with Us",
+      "paymentProducts": "TradeNest Payment Products",
+      "tradeNestCard": "TradeNest Business Card",
+      "shopWithPoints": "Shop with Points",
+      "reloadBalance": "Reload Your Balance",
+      "currencyConverter": "TradeNest Currency Converter",
+      "help": "Let Us Help You",
+      "covid": "TradeNest and COVID-19",
+      "yourAccount": "Your Account",
+      "yourOrders": "Your Orders",
+      "shippingPolicies": "Shipping Rates & Policies",
+      "returnsReplacements": "Returns & Replacements",
+      "manageContent": "Manage Your Content and Devices",
+      "helpCenter": "Help"
+    }
+  }
+  
